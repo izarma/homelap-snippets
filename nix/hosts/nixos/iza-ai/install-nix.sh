@@ -1,6 +1,6 @@
 #!/bin/bash
 # git clone -b main https://github.com/izarma/nix-ollama-snippets.git
-# cd nix-ollama-snippets/nix/hosts/nixos/nix-llm/
+# cd nix-ollama-snippets/nix/hosts/nixos/iza-ai/
 # sh install-nix.sh
 
 # Check if the script is running as root
