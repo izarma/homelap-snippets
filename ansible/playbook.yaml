@@ -1,5 +1,5 @@
 ---
-  - hosts: nix-llm
+  - hosts: iza-ai
     roles:
       - role: ironicbadger.docker-compose-generator
         tags: compose

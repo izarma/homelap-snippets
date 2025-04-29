@@ -3,7 +3,7 @@ let
   inherit (inputs) nixpkgs nixpkgs-unstable;
 in
 {
-  time.timeZone = "America/New_York";
+  time.timeZone = "Asia/Kolkata";
   system.stateVersion = "24.11";
 
   virtualisation = {

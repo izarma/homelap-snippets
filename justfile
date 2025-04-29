@@ -8,8 +8,8 @@ sub-update:
 install IP:
   ssh -o "StrictHostKeyChecking no" nixos@{{IP}} "sudo bash -c '\
     nix-shell -p git --run \"cd /root/ && \
-    git clone -b nix-nvidia https://github.com/tailscale-dev/video-code-snippets.git && \
-    cd video-code-snippets/2025-02-nix-nvidia-ollama/nix/hosts/nixos/nix-llm/ && \
+    git clone -b main https://github.com/izarma/nix-ollama-snippets.git && \
+    cd nix-ollama-snippets/nix/hosts/nixos/iza-ai/ && \
     sh install-nix.sh\"'"
 
 ## nix updates
