@@ -15,7 +15,7 @@
         iza-ai = libx.mkNixos {
           system = "x86_64-linux";
           hostname = "iza-ai";
-          username = "zaphod";
+          username = "izarma";
         };
       };
    };
